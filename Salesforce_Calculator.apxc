@@ -1,0 +1,28 @@
+public class SimpleCalculator {
+    public static Integer add(Integer n1, Integer n2){
+        return n1+n2;
+    }
+    public static Integer subtract(Integer n1, Integer n2){
+        return n1-n2;
+    }
+    public static Integer multiply(Integer n1, Integer n2){
+        return n1*n2;
+    }
+    public static Integer divide(Integer n1, Integer n2){
+        return n1/n2;
+    }
+
+    public static void main(String[] args){ }
+}
+
+
+//Apex Code 
+
+Integer n1 = 10;
+Integer n2 = 40;
+
+Integer sum = SimpleCalculator.add(n1,n2);
+System.debug('Sum is ' + sum);
+
+Integer diff = SimpleCalculator.subtract(n1,n2);
+System.debug('Sum is ' + diff);
